@@ -21,20 +21,22 @@ main_image:
   add_youtube_background_video: false
 home_sections:
 - template: intro
-  intro_title: Discover Our Finest Homes
-  intro_body: Each section of the home page can be arranged and customized through
-    your phone or computer. Easily manage your website through our website editor
-    customized specifically for real estate professionals.
+  intro_title: ANITA E. ISWANTO
+  intro_body: Being licensed since April of 2009 and a Certified Probate Real Estate
+    Specialist, I can provide you a wealth of knowledge in the area. My extensive
+    background in real estate allows me to understand my clients’ needs and far exceed
+    their expectations. I work with plenty of first time home buyers and investors
+    who describe me as an experienced and trustworthy professional.
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
   intro_add_button:
-    button_label: Learn more
-    intro_button_link: "/contact"
+    button_label: ''
+    intro_button_link: ''
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#E2E2E2"
   intro_enable_white_text_color: false
-  add_photo: "/uploads/agent-4.jpg"
+  add_photo: "/uploads/anita.jpg"
 - template: featured-tiles
   top_left_tile:
     top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
