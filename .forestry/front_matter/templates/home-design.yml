@@ -192,6 +192,7 @@ fields:
   - cta
   - testimonial-slider
   - idx-search-bar
+  - idx-listings
   config:
     min: 
     max: 
