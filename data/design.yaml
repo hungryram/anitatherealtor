@@ -70,7 +70,7 @@ colors:
   button_background_colors: "#A98C53"
   header_background_color: "#FFFFFF"
   navigation_link_color: "#BA0000"
-  enable_black_menu_items: true
+  enable_black_menu_items: false
   top_bar_background: "#333333"
   top_bar_enable_black_text_color: false
 upload_image: ''
