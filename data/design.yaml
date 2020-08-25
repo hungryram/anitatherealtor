@@ -66,10 +66,10 @@ footer:
 colors:
   text_link_colors: rgb(169, 140, 83)
   button_background_colors: "#A98C53"
-  header_background_color: "#0B1723"
+  header_background_color: "#FFFFFF"
   navigation_link_color: "#BA0000"
-  enable_black_menu_items: false
-  top_bar_background: "#707985"
+  enable_black_menu_items: true
+  top_bar_background: "#333333"
   top_bar_enable_black_text_color: false
 upload_image: ''
 slideshow:
