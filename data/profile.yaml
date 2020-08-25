@@ -1,30 +1,32 @@
 ---
 primary_contact:
-  full_name: Louis Davis
-  title: Broker
-  phone: "(510) 555-1002"
-  mobile_phone: "(510) 555-1000"
-  email: info@sampletemplate.com
+  full_name: Anita Iswanto
+  title: Realtor
+  phone: ''
+  mobile_phone: 714-262-3501
+  email: anitaeiswanto@gmail.com
   license_type: BRE License
-  license_number: "54535489"
+  license_number: '01861935'
 location_information:
-  address: 1900 Addison Street
-  city: Berkeley
+  address: 1264 W 6th St.
+  city: Corona
   state: California
-  zip_code: 54845
+  zip_code: 92882
 social_accounts:
   youtube: ''
-  facebook: https://facebook.com/hungryram
+  facebook: ''
   linkedin: ''
-  instagram: https://instagram.com/hungry_ram
-  twitter: https://twitter.com/hungryram
+  instagram: https://instagram.com/ahhneetaa
+  twitter: ''
   pinterest: ''
   zillow: ''
   redfin: ''
   realtor: ''
   trulia: ''
   reddit: ''
-primary_company_name: Real Estate Company
+primary_company_name: Century 21 Garland Realty Inc
 search_engine_optimization:
-  meta_title: Real Estate Property testing
-  meta_description: This is my business just adding on to description
+  meta_title: Anita Iswanto | Your Realtor in Orange County and Riverside County Area
+  meta_description: Anita Iswanto is a real estate specialist in the Inland Empire
+    and a Certified Probate Real Estate. Whether you are a first time home buyer or
+    investor in the Inland Empire, Anita will share her knowledge of the area.
