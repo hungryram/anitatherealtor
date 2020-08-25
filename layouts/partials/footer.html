@@ -13,7 +13,19 @@
               {{ end }}
         </a>
         <p>{{ .Site.Data.design.footer.footer_bio }}</p>
-        <em>{{ .Site.Data.profile.primary_contact.license_type }} {{ .Site.Data.profile.primary_contact.license_number }}</em>
+        <em>{{ .Site.Data.profile.primary_contact.license_type }} {{ .Site.Data.profile.primary_contact.license_number }}</em><br>
+        <img src="/uploads/cpresseal.png" alt="Certified Probate Real Estate Specialist" width="150" class="mt-4">
+      </div>
+      <div class="column">
+        <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Contact</h4>
+        {{ $location := .Site.Data.profile.location_information }}
+        {{ $contact := .Site.Data.profile.primary_contact }}
+        <ul {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}} class="footer-contact">
+          {{ if gt ( len $location.address ) 0 }}{{ if $location }}<li><i class="fas fa-map-marker-alt"></i>{{ $location.address }} {{ $location.city }} {{ $location.state }} {{ $location.zip_code }}</li> {{ end }}{{ end }}
+          {{ if $contact.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li> {{ end }}
+          {{ if $contact }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a></li> {{ end }}
+          {{ if $contact.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li> {{ end }}
+        </ul>
         {{ $footerSocial := .Site.Data.profile.social_accounts }}
         <ul class="footer-social">
           {{ with $footerSocial.facebook }}
@@ -59,17 +71,6 @@
           {{ with $footerSocial.trulia }}
           <li><a href="{{ . }}" target="_blank" title="Trulia">Trulia</a></li>
           {{end}}
-        </ul>
-      </div>
-      <div class="column">
-        <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Contact</h4>
-        {{ $location := .Site.Data.profile.location_information }}
-        {{ $contact := .Site.Data.profile.primary_contact }}
-        <ul {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}} class="footer-contact">
-          {{ if gt ( len $location.address ) 0 }}{{ if $location }}<li><i class="fas fa-map-marker-alt"></i>{{ $location.address }} {{ $location.city }} {{ $location.state }} {{ $location.zip_code }}</li> {{ end }}{{ end }}
-          {{ if $contact.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li> {{ end }}
-          {{ if $contact }}<li><i class="fas fa-mobile-alt"></i> <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a></li> {{ end }}
-          {{ if $contact.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li> {{ end }}
         </ul>
         
         
