@@ -40,8 +40,8 @@ home_sections:
 - template: featured-tiles
   top_left_tile:
     top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
-    top_left_featured_title: Contact Me
-    top_left_link_to_property: "/contact"
+    top_left_featured_title: Corona
+    top_left_link_to_property: "/homes-for-sale-results/?cityId=188&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&bedrooms=0&bathCount=0"
   bottom_left_tile:
     featured_title: Blog
     featured_image: "/uploads/luxkitchen.jpg"
