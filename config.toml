@@ -2,7 +2,38 @@ baseURL = "https://simplere.netlify.app"
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 5
+[[menu.main]]
+name = "Mortgage Calculator"
+parent = "Buyers & Sellers"
+url = "http://www.idxhome.com/mortcalc/133407"
+weight = 2
+[[menu.main]]
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = "http://www.idxhome.com/organizer/login/133407"
+weight = 1
+[[menu.main]]
+name = "Buyers & Sellers"
+weight = 4
+[[menu.main]]
+name = "Advanced Search"
+parent = "Property Search"
+url = "http://www.idxhome.com/listing/search/advanced/133407"
+weight = 2
+[[menu.main]]
+name = "Search"
+parent = "Property Search"
+url = "http://www.idxhome.com/homesearch/133407"
+weight = 1
+[[menu.main]]
+name = "Property Search"
+weight = 3
+[[menu.main]]
 name = "Featured Listings"
+url = "http://www.idxhome.com/featured/133407"
 weight = 2
 [[menu.main]]
 name = "Home"
