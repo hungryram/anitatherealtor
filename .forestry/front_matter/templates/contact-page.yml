@@ -21,5 +21,10 @@ fields:
   config: {}
   template: url
   label: URL
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/contact/_index.md
