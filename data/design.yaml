@@ -42,7 +42,7 @@ home_sections:
   text: ''
 - template: featured-tiles
   top_left_tile:
-    top_left_featured_image: "/uploads/contact-hungry-ram.jpg"
+    top_left_featured_image: "/uploads/whitecounter.jpg"
     top_left_featured_title: Corona
     top_left_link_to_property: "/homes-for-sale-results/?cityId=188&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&bedrooms=0&bathCount=0"
   bottom_left_tile:
@@ -51,7 +51,7 @@ home_sections:
     bottom_left_link_to_property: "/blog"
   right_tile:
     featured_title: Listings
-    featured_image: "/uploads/derek-thomson-p50hcc0yrl0-unsplash.jpg"
+    featured_image: "/uploads/colfax-coldwell-banker-the-real-estate-group.jpg"
     right_link_to_property: "/listings"
   tile_background_color: ''
 - template: featured-blog
