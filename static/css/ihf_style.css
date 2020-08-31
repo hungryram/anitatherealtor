@@ -1,10 +1,5 @@
 /* IDX HOME SCROLL */
 
-div#ihf-main-container .input-text, div#ihf-main-container input[type=input], div#ihf-main-container input[type=text],
-#ihf-main-container .form-control, #ihf-main-container .input-text, #ihf-main-container input[type=input], #ihf-main-container input[type=text], #ihf-main-container .chosen-container-single .chosen-single {
-    border-radius: 0px!important;
-}
-
 div#ihf-main-container .thumbnail {
     border: none;
     background-color: transparent;
@@ -18,7 +13,7 @@ img.ihf-slider-img {
 
 div.col-xs-12.address.gallery-address{
     text-align: center;
-    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', serif;
     margin-bottom: 20px;
 }
 
@@ -26,6 +21,8 @@ div#ihf-main-container a {
     color: #000;
     font-size: 1rem;
     text-transform: capitalize;
+
+
 }
 
 div#ihf-main-container a:hover {
@@ -41,7 +38,7 @@ div.row.gallery-prop-info {
 div#ihf-main-container .col-xs-6,
 #ihf-main-container > div > div.row.ihf-vcenter > div > div > div.ihf-slide.cycle-slide.cycle-slide-active > div > div:nth-child(1) > div > div.row.gallery-prop-info > div:nth-child(2) {
     text-align:center!important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
 
@@ -54,8 +51,3 @@ div#ihf-main-container .glyphicon-chevron-left:before,
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
-    .section.hero-foot {
-        display: none;
-    }
-}
