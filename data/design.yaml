@@ -2,7 +2,7 @@
 logo_or_title:
   upload_logo: "/uploads/c21garlandlogo2.png"
   title: Century 21 Garland Realty
-  favicon: ''
+  favicon: "/uploads/favi.png"
 main_image:
   hero_subtitle: Your Realtor in Orange County and Riverside County Area
   home_background_image: "/uploads/shutterstock_683283169.jpg"
