@@ -1,21 +1,10 @@
-{{ partial "head.html" . }}
-{{ partial "navbar.html" . }}
-<div style="height: 25vh;background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url({{ .Site.Data.design.sub_pages.sub_page_image | absURL }}); background-size: cover;background-position: center" class="page-banner">
-</div>
-<main>
+{{ define "main" }}
+
 <div class="section">
     <div class="container">
-        <div class="columns idx-wrapper">
-            <div class="column">
-                 {idx_body}
-            </div>
-        </div>
-        <div class="columns">
-            <div class="column">
-                <p class="is-size-7">IDX powered website</p>
-            </div>
-        </div>
+        {idx_body}
     </div>
+    <p class="is-size-7">IDX Integration</p>
 </div>
-</main>
-{{ partial "footer.html" . }}
+
+{{ end }}
