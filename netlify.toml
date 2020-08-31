@@ -1,0 +1,14 @@
+# Redirect default Netlify subdomain to primary domain
+https://anitatherealtor.netlify.app/* https://www.anitatherealtor.com/:splat 301!
+
+[[redirects]]
+  from = "https://anitatherealtor.netlify.app/*"
+  to = "https://www.anitatherealtor/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/contact-form"
+  to = "/contact"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect  
