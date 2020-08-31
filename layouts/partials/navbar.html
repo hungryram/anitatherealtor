@@ -12,7 +12,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="{{ .Site.BaseURL }}">
-                {{ with .Site.Data.design.logo_or_title.upload_logo}}
+                {{ with .Site.Data.design.logo_or_title.upload_logo }}
             <img src="{{ . | absURL }}" alt="{{ $.Site.Data.profile.primary_company_name }}">
                 {{ else }}
             <h1>{{ .Site.Data.design.logo_or_title.title }}</h1>
