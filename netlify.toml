@@ -1,6 +1,6 @@
 [[redirects]]
   from = "https://anitatherealtor.netlify.app/*"
-  to = "https://www.anitatherealtor/:splat"
+  to = "https://www.anitatherealtor.com/:splat"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
