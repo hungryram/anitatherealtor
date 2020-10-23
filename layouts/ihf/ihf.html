@@ -12,14 +12,34 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.8/slick-lightbox.css"/>
     <link rel="shortcut icon" href="{{ .Site.Data.design.logo_or_title.favicon | absURL }}" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141651762-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141651762-1');
+</script>
 
 </head>
 <body>
-{{ partial "navbar.html" . }}    
+  {{ partial "navbar.html" . }}
+  <div style="height: 25vh;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url({{ .Site.Data.design.sub_pages.sub_page_image | absURL }}); background-size: cover;background-position: center" class="page-banner">
+    <div class="section">
+        <div class="container">
+            <div class="columns has-text-centered">
+                <div class="column">
+                    <h2 class="title is-3">{{ .Title }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 <div class="section">
     <div class="container pt">
       {idx_body}
     </div>
-</div>
+  </div>
 
 {{ partial "footer.html" . }}
